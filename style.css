@@ -154,7 +154,8 @@ img {
   border-radius: 8px;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-content: left;
   padding: 12px;
-  margin: 7%;
+  margin: 7% 0;
+  text-decoration: none;
 }
