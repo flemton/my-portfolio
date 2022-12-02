@@ -6,18 +6,30 @@
 .toolbar {
   display: flex;
   justify-content: space-between;
-  
 }
 
 .hamburger-menu {
- border-color: transparent;
+  border-color: transparent;
+}
+
+.hamburger-menu:hover {
+  cursor: pointer;
+}
+
+.hamburger-menu:active {
+  cursor: context-menu;
 }
 
 .headline {
   background-image: url('./img/header-background-mobile.png');
   background-position: center;
   background-repeat: no-repeat;
-  font-family: 'Poppins';
   font-style: normal;
   font-size: 28px;
+}
+
+.social-media-title {
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
 }
