@@ -36,15 +36,13 @@
   margin: 10px 0;
   padding: 95px 20px 0;
   margin-right: -10px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 h1 {
   width: 90%;
-  height: 23%;
   font-weight: 700;
   font-size: 40px;
-  line-height: 52px;
   margin-bottom: -1%;
 }
 
@@ -54,7 +52,8 @@ h1 {
   color: #7f8cff;
 }
 
-.headline-text, .left-block {
+.headline-text,
+.left-block {
   width: 100%;
   font-weight: 400;
   font-size: 16px;
@@ -62,7 +61,8 @@ h1 {
   height: 25%;
 }
 
-.social-icons, .portfolio-tags {
+.social-icons,
+.portfolio-tags {
   display: flex;
   gap: 5%;
   list-style: none;
@@ -84,7 +84,7 @@ h1 {
   box-sizing: border-box;
   flex-direction: column;
   align-items: center;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
   padding: 16px;
   width: 100%;
@@ -99,13 +99,12 @@ img {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 295px;
   height: 100%;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
-  
 }
 
 .project-title {
@@ -116,7 +115,8 @@ img {
   font-size: 32px;
 }
 
-.canopy, .canopy > ul {
+.canopy,
+.canopy > ul {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -129,7 +129,7 @@ img {
 .portfolio-tags {
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
   width: 203px;
   height: 24px;
@@ -142,18 +142,18 @@ img {
   padding: 4px 12px;
   width: 89px;
   height: 24px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .project-links {
   box-sizing: border-box;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
   display: flex;
   flex-direction: row;
@@ -173,7 +173,7 @@ img {
   padding-top: 28%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .about-myself > h1 {
