@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   margin-left: 0;
+  background-color: #f7f7f9;
 }
 
 .nav-bar {
@@ -35,6 +36,7 @@
   margin: 10px 0;
   padding: 95px 20px 0;
   margin-right: -10px;
+  background-color: #ffffff;
 }
 
 h1 {
@@ -158,4 +160,29 @@ img {
   padding: 12px;
   margin: 7% 0;
   text-decoration: none;
+  width: fit-content;
+}
+
+.about-myself {
+  display: flex;
+  flex-direction: column;
+  padding: 114px 24px;
+  position: relative;
+  margin-top: 70%;
+  padding-top: 28%;
+  height: 50%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  background-color: #ffffff;
+  width: 90%;
+}
+
+.about-myself > h1 {
+  width: 90;
+  height: 19%;
+}
+
+.about-myself > p {
+  font-weight: 400;
+  font-size: 16px;
 }
