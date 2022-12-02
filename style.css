@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+  margin-right: 6%;
+}
+
+.hamburger-menu {
+  border-color: transparent;
+  background: none;
+}
+
+.hamburger-menu:hover {
+  cursor: pointer;
+}
+
+.hamburger-menu:active {
+  cursor: context-menu;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  background-image: url('./img/header-background-mobile.png');
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  background-size: 100%;
+  margin: 10px 0;
+  padding: 95px 20px;
+  margin-right: -10px;
+}
+
+h1 {
+  width: 90%;
+  height: 23%;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.lets-connect {
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
+}
+
+.headline-text {
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  height: 25%;
+}
+
+.social-icons {
+  display: flex;
+  gap: 5%;
+  list-style: none;
+  padding: 0;
+}
