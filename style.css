@@ -123,7 +123,10 @@ img {
 }
 
 .canopy > ul {
-  gap: 20px;
+  gap: 10px;
+  color: #7A869A;
+  list-style: none;
+  padding-left: 10;
 }
 
 .portfolio-tags {
