@@ -33,10 +33,10 @@
 }
 
 h1 {
-width: 250px;
-height: 95px;
-font-weight: 700;
-font-size: 40px;
+  width: 250px;
+  height: 95px;
+  font-weight: 700;
+  font-size: 40px;
 }
 
 .lets-connect {
@@ -46,10 +46,10 @@ font-size: 40px;
 }
 
 .headline-text {
-width: 327px;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+  width: 327px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .social-icons {
