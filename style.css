@@ -3,9 +3,10 @@
   flex-direction: column;
 }
 
-.toolbar {
+.nav-bar {
   display: flex;
   justify-content: space-between;
+  margin: 10px 20px;
 }
 
 .hamburger-menu {
@@ -21,15 +22,39 @@
 }
 
 .headline {
+  display: flex;
+  flex-direction: column;
   background-image: url('./img/header-background-mobile.png');
-  background-position: center;
   background-repeat: no-repeat;
+  font-family: 'Poppins';
   font-style: normal;
-  font-size: 28px;
+  margin: 10px 0;
+  padding: 95px 20px;
 }
 
-.social-media-title {
+h1 {
+width: 250px;
+height: 95px;
+font-weight: 700;
+font-size: 40px;
+}
+
+.lets-connect {
   font-weight: 500;
   font-size: 16px;
   color: #7f8cff;
+}
+
+.headline-text {
+width: 327px;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
 }

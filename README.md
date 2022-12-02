@@ -11,7 +11,7 @@ REQUIRED SECTIONS:
 - About the Project
   - Built With
 - Getting Started
-- Authors
+- Author
 - Acknowledgements
 - License
 
@@ -39,7 +39,7 @@ After you're finished please remove all the comments and instructions!
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-- [👥 Authors](#authors)
+- [👥 Author](#author)
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ](#faq)
 - [📝 License](#license)
@@ -96,9 +96,9 @@ To run the project, execute the following command:
 `npm start`
 
 
-<!-- AUTHORS -->
+<!-- AUTHOR -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="author"></a>
 
 👤 **Newton**
 
