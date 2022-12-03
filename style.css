@@ -203,4 +203,27 @@ img {
 .skills-list {
   display: flex;
   flex-direction: column;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list > li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+}
+
+.right {
+  transform: rotate(-45deg);
 }
