@@ -37,6 +37,8 @@
   padding: 95px 20px 0;
   margin-right: -10px;
   background-color: #fff;
+  border-radius: 0 0 0 90px;
+  height: 67%;
 }
 
 h1 {
@@ -167,6 +169,14 @@ img {
   width: fit-content;
 }
 
+.project-links:hover {
+  background-color: #7f8cff;
+}
+
+.project-links:active {
+  background-color: blue;
+}
+
 .about-myself {
   display: flex;
   flex-direction: column;
@@ -177,6 +187,7 @@ img {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   background-color: #fff;
+  border-radius: 0 90px 0 0;
 }
 
 .about-myself > h1 {
