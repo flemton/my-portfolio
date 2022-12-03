@@ -205,17 +205,22 @@ img {
   flex-direction: column;
   list-style: none;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .skills-list > li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  margin: 0 9% 0 10;
 }
 
 .arrow {
   border: solid black;
-  border-width: 0 3px 3px 0;
+  border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 3px;
 }
@@ -226,4 +231,33 @@ img {
 
 .right {
   transform: rotate(-45deg);
+  height: fit-content;
+}
+
+.language-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 12px;
+  gap: 12px;
+}
+
+.language-icons > li {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-content: flex-start;
+  background: #f7f7f9;
+  border-radius: 8px;
+  gap: 12px;
+  padding: 10 10 3;
+}
+
+.language-icons > li > img {
+  width: 48px;
+  height: 48px;
+}
+
+.border-lines {
+  border-bottom: 0.5px solid #7a869a;
 }
