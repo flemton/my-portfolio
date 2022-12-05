@@ -131,7 +131,7 @@ img {
 }
 
 .portfolio-tags {
-  float: right;
+  /*float: left;*/
   align-items: center;
   padding: 0;
   gap: 8px;
@@ -140,6 +140,7 @@ img {
 }
 
 .portfolio-tags > li {
+  float:inline-start;
   gap: 20px;
   padding: 4px 12px;
   width: 89px;
