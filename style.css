@@ -63,8 +63,7 @@ h1 {
   height: 25%;
 }
 
-.social-icons,
-.portfolio-tags {
+.social-icons {
   display: flex;
   gap: 5%;
   list-style: none;
@@ -132,7 +131,7 @@ img {
 }
 
 .portfolio-tags {
-  flex-direction: row;
+  float: right;
   align-items: center;
   padding: 0;
   gap: 8px;
@@ -141,8 +140,6 @@ img {
 }
 
 .portfolio-tags > li {
-  display: flex;
-  flex-direction: row;
   gap: 20px;
   padding: 4px 12px;
   width: 89px;
