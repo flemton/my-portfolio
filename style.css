@@ -342,6 +342,12 @@ line-height: 52px;
   height: 170px;
 }
 
+#msg:hover,
+#name:hover,
+#mail:hover {
+  border: 3px solid green;
+}
+
 #get-intouch {
   width: 135px;
   font-family: 'Poppins', sans-serif;
@@ -356,4 +362,12 @@ line-height: 52px;
   color: #6070ff;
   border: 1px solid white;
   border-radius: 6px;
+}
+
+#get-intouch:hover {
+  border: 3px solid blue;
+}
+
+#get-intouch:active {
+  color: green;
 }
