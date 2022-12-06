@@ -263,8 +263,8 @@ img {
 }
 
 .contact-page {
- /* display:flex;
-  flex-direction: column;*/
+  display:flex;
+  flex-direction: column;
   background-image: url('./img/contact--mobile.png');
   background-size: 100%;
   width: 100%;
@@ -290,4 +290,23 @@ line-height: 52px;
 
 /* Neutrals/N0 */
 color: #FFFFFF;
+}
+.contact-page > p {
+  /* Primary Text */
+width: 327px;
+height: 102px;
+margin: 10 10 10 20;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+text-align: center;
+
+/* Primary/B50 */
+color: #EBEBFF;
+
+
 }
