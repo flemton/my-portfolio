@@ -316,9 +316,10 @@ color: #EBEBFF;
   justify-content: center;
 }
 
-#name, #mail{
+#name, #mail, #msg{
   /* Container */
-height: 30px;
+height: 48px;
+width: 300px;
 margin-bottom: 25px;
 
 
@@ -327,4 +328,9 @@ background: #FFFFFF;
 /* Base/100 */
 border: 1px solid #CFD8DC;
 border-radius: 8px;
+}
+
+#msg{
+  /* Container */
+height: 170px;
 }
