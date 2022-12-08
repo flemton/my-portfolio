@@ -408,6 +408,10 @@ img {
     padding: 10%;
   }
 
+  .about-myself > div {
+    margin-right: 2%;
+  }
+
   .contactme {
     padding-top: 6%;
   }
