@@ -402,7 +402,10 @@ img {
   }
 
   .about-myself {
+    flex-direction: row;
+    justify-content: flex-start;
     margin-top: 10%;
+    padding: 10%;
   }
 
   .contactme {
@@ -419,6 +422,27 @@ img {
 .contact-page > p {
   padding-top: 2%;
   width: 569;
+}
+
+.about-myself > div > p {
+  width: 447px;
+}
+
+.skills-list {
+  width: 684px;
+}
+
+.skills-list > li {
+  font-size: 20px;
+}
+
+.language-icons {
+  flex-direction: row;
+}
+.language-icons > li {
+  flex-direction: column;
+  width: 122px;
+  height: 120px;
 }
 
 }
