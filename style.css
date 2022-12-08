@@ -357,7 +357,7 @@ img {
     padding: 15% 18% 0 16%;
     height: 82%;
   }
-  
+
   h1 {
     font-size: 48px;
   }
@@ -412,37 +412,39 @@ img {
     padding-top: 6%;
   }
 
-  #name, #mail, #msg {
+  #name,
+  #mail,
+  #msg {
     width: 447px;
     margin-bottom: 25px;
     padding: 14;
     border-radius: 2px;
-}
+  }
 
-.contact-page > p {
-  padding-top: 2%;
-  width: 569;
-}
+  .contact-page > p {
+    padding-top: 2%;
+    width: 569;
+  }
 
-.about-myself > div > p {
-  width: 447px;
-}
+  .about-myself > div > p {
+    width: 447px;
+  }
 
-.skills-list {
-  width: 684px;
-}
+  .skills-list {
+    width: 684px;
+  }
 
-.skills-list > li {
-  font-size: 20px;
-}
+  .skills-list > li {
+    font-size: 20px;
+  }
 
-.language-icons {
-  flex-direction: row;
-}
-.language-icons > li {
-  flex-direction: column;
-  width: 122px;
-  height: 120px;
-}
+  .language-icons {
+    flex-direction: row;
+  }
 
+  .language-icons > li {
+    flex-direction: column;
+    width: 122px;
+    height: 120px;
+  }
 }
