@@ -385,15 +385,17 @@ img {
   .categories {
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    border-radius: 16px;
-    padding: 16px;
-    width: fit-content;
+    justify-content: space-between;
+    padding: 23px;
+    width: 87%;
     height: fit-content;
+    border-radius: 24px;
+    margin: 25 20 20 50;
   }
 
-  img {
-    width: 70%;
+  .categories-img {
+    width: 540;
+    height: 440;
   }
 
   .contact-page {
@@ -409,5 +411,20 @@ img {
     align-items: center;
     padding: 5% 1% 1% 1%;
   }
+
+  .left-block {
+    width: 45%;
+    padding-right: 3%;
+  }
+
+  .about-myself {
+    margin-top: 10%;
+  }
+
+  #name, #mail, #msg {
+    width: 447px;
+    margin-bottom: 25px;
+    padding: 14;
+}
 
 }
