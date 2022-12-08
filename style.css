@@ -375,7 +375,7 @@ img {
     align-items: center;
     justify-content: space-between;
     padding: 23px;
-    width: 87%;
+    width: 1156px;
     height: fit-content;
     border-radius: 24px;
     margin: 25 20 20 50;
@@ -389,6 +389,7 @@ img {
   .contact-page {
     background-image: url('./img/contact-bg.png');
     align-items: center;
+    height: 846px;
   }
 
   .formsection {
