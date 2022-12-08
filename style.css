@@ -360,3 +360,54 @@ img {
 #get-intouch:active {
   color: green;
 }
+
+@media (min-width: 600px) {
+  .headline {
+    display: flex;
+    flex-direction: column;
+    background-image: url('./img/header-bg.png');
+    padding: 15% 18% 0 16%;
+    height: 82%;
+  }
+  
+  h1 {
+    font-size: 48px;
+  }
+
+  .headline-text {
+    height: 7%;
+  }
+
+  .lets-connect {
+    height: 15;
+  }
+
+  .categories {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    padding: 16px;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  img {
+    width: 70%;
+  }
+
+  .contact-page {
+    display: flex;
+    flex-direction: column;
+    background-image: url('./img/contact-bg.png');
+    height: 100%;
+    width: 100%;
+    align-items: center;
+  }
+
+  .formsection {
+    align-items: center;
+    padding: 5% 1% 1% 1%;
+  }
+
+}
