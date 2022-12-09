@@ -449,6 +449,22 @@ img {
     width: 50%;
   }
 
+  .my-logo{
+    animation-name: rotate_title;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes rotate_title{
+    70% {
+      transform: scale(1.5) rotate(180deg) translateX(-50%);
+    }
+  
+    to {
+      transform: scale(1) rotate(720deg) translateX(0);
+  }
+  }
+
   p {
   animation-duration: 3s;
   animation-name: slidein;
