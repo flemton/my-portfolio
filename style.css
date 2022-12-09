@@ -119,6 +119,7 @@ img {
   font-size: 32px;
 }
 
+
 .canopy,
 .canopy > ul {
   display: flex;
@@ -427,6 +428,23 @@ img {
     margin-bottom: 25px;
     padding: 14;
     border-radius: 2px;
+  }
+
+  .contactme, .project-title{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 
   .contact-page > p {
