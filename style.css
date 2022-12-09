@@ -1,8 +1,10 @@
 .container {
   display: flex;
   flex-direction: column;
-  margin-left: 0;
+  justify-content: center;
+  margin: 0;
   background-color: #f7f7f9;
+  margin-right: -4%;
 }
 
 .nav-bar {
@@ -181,7 +183,6 @@ img {
   display: flex;
   flex-direction: column;
   padding: 114px 24px;
-  position: relative;
   margin-top: 70%;
   padding-top: 28%;
   font-family: 'Poppins', sans-serif;
@@ -267,25 +268,25 @@ img {
   flex-direction: column;
   background-image: url('./img/contact--mobile.png');
   background-size: 100%;
-  width: 100%;
+  width: 103%;
   height: 100%;
   background-color: #6070ff;
   background-repeat: no-repeat;
   border-radius: 65px 0 0 0;
+  padding-bottom: 10%;
+  padding-top: 35%;
+  align-items: center;
 }
 
 .contactme {
-  width: 90%;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 40px;
-  margin-bottom: -1%;
-  text-align: center;
   color: #fff;
 }
 
 .contact-page > p {
-  width: 327px;
+  width: 80%;
   height: 102px;
   margin: 10 10 10 20;
   font-family: 'Poppins', sans-serif;
@@ -293,12 +294,11 @@ img {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  text-align: center;
   color: #ebebff;
 }
 
 .formsection {
-  padding: 25% 10% 10% 10%;
+  padding: 10% 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -308,7 +308,7 @@ img {
 #mail,
 #msg {
   height: 48px;
-  width: 300px;
+  width: 327px;
   margin-bottom: 25px;
   background: #fff;
   border: 1px solid #cfd8dc;
@@ -349,13 +349,14 @@ img {
   color: green;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .headline {
     display: flex;
     flex-direction: column;
     background-image: url('./img/header-bg.png');
     padding: 15% 18% 0 16%;
     height: 82%;
+    width: 125%;
   }
 
   h1 {
@@ -375,7 +376,7 @@ img {
     align-items: center;
     justify-content: space-between;
     padding: 23px;
-    width: 1156px;
+    width: 150%;
     height: fit-content;
     border-radius: 24px;
     margin: 25 20 20 50;
@@ -390,6 +391,7 @@ img {
     background-image: url('./img/contact-bg.png');
     align-items: center;
     height: 846px;
+    width: 160%;
   }
 
   .formsection {
@@ -407,6 +409,7 @@ img {
     justify-content: flex-start;
     margin-top: 10%;
     padding: 10%;
+    width: 140%;
   }
 
   .about-myself > div {
@@ -428,11 +431,10 @@ img {
 
   .contact-page > p {
     padding-top: 2%;
-    width: 569;
   }
 
   .about-myself > div > p {
-    width: 447px;
+    width: 80%;
   }
 
   .skills-list {
@@ -441,6 +443,10 @@ img {
 
   .skills-list > li {
     font-size: 20px;
+  }
+
+  img {
+    width: 50%;
   }
 
   .language-icons {
