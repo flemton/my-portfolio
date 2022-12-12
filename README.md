@@ -46,9 +46,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse] <a name="about-project"></a>
+# 📖 [My Portfolio](https://flemton.github.io/) <a name="about-project"></a>
 
-**My Portfolio** is one of the most powerful tool in my software developer toolbox; it’s the easiest way of showing what I am truly capable of as a developer, and is a quick and simple way for recruiters and hiring managers to get an idea of what I can bring to their teams.
+**[My Portfolio](https://flemton.github.io/)** is one of the most powerful tool in my software developer toolbox; it’s the easiest way of showing what I am truly capable of as a developer, and is a quick and simple way for recruiters and hiring managers to get an idea of what I can bring to their teams.
+**[Click here](https://flemton.github.io/) for a [live](https://flemton.github.io/) version to [my portfolio](https://flemton.github.io/)**
 
 ## 🛠 Built With <a name="built-with"></a>
 
