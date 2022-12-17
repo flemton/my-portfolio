@@ -9,16 +9,21 @@ body {
   margin: 10px 20px;
 }
 
-.hamburger-menu {
+#hamburger {
+  display: none;
   border-color: transparent;
   background: none;
 }
 
-.hamburger-menu:hover {
+#hamburger-icon {
+  color: #6070ff;
+}
+
+#hamburger:hover {
   cursor: pointer;
 }
 
-.hamburger-menu:active {
+#hamburger:active {
   cursor: context-menu;
 }
 
@@ -349,6 +354,23 @@ img {
     background-image: url('./img/header-bg.png');
     padding: 10% 10%;
     width: 80%;
+  }
+
+  #hamburger-icon {
+    display: none;
+    color: #6070ff;
+  }
+
+  #hamburger {
+    display: flex;
+    color: black;
+    margin-right: 10%;
+  }
+
+  #hamburger a {
+    text-decoration: none;
+    padding: 0 10%;
+    font-size: 15px;
   }
 
   h1 {
