@@ -358,6 +358,7 @@ img {
 
   .headline-text {
     font-size: 20px;
+    width: 80%;
   }
 
   #hamburger-icon {
@@ -380,10 +381,6 @@ img {
   h1 {
     font-size: 48px;
     width: 40%;
-  }
-
-  .headline-text {
-    width: 80%;
   }
 
   .lets-connect {
@@ -527,7 +524,8 @@ img {
     height: 120px;
   }
 
-  .social-icons, .portfolio-tags {
+  .social-icons,
+  .portfolio-tags {
     display: flex;
     gap: 2%;
     list-style: none;
@@ -537,5 +535,4 @@ img {
   .project-links {
     margin: 0;
   }
-
 }
