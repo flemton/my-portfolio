@@ -178,7 +178,7 @@ img {
   display: flex;
   flex-direction: column;
   padding: 114px 24px;
-  margin-top: 70%;
+  margin-top: 80%;
   padding-top: 28%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -353,6 +353,7 @@ img {
 
   h1 {
     font-size: 48px;
+    width: 40%;
   }
 
   .headline-text {
@@ -398,12 +399,13 @@ img {
   .about-myself {
     flex-direction: row;
     justify-content: flex-start;
-    margin-top: 10%;
-    padding: 10%;
+    margin-top: 300px;
+    padding: 10% 10%;
   }
 
   .about-myself > div {
     margin-right: 2%;
+    width: 50%;
   }
 
   .contactme {
@@ -446,10 +448,6 @@ img {
     padding-top: 2%;
   }
 
-  .skills-list {
-    width: 684px;
-  }
-
   .skills-list > li {
     font-size: 20px;
   }
@@ -488,6 +486,7 @@ img {
 
   .language-icons {
     flex-direction: row;
+    width: 50%;
   }
 
   .language-icons > li {
@@ -501,4 +500,10 @@ img {
     gap: 1%;
     list-style: none;
     padding: 0;
+  }
+
+  .project-links {
+    margin: 0;
+  }
+
 }
