@@ -34,6 +34,7 @@ After you're finished please remove all the comments and instructions!
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -46,10 +47,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [My Portfolio](https://flemton.github.io/) <a name="about-project"></a>
+# 📖 [My Portfolio](https://flemton.github.io/my-portfolio/) <a name="about-project"></a>
 
-**[My Portfolio](https://flemton.github.io/)** is one of the most powerful tool in my software developer toolbox; it’s the easiest way of showing what I am truly capable of as a developer, and is a quick and simple way for recruiters and hiring managers to get an idea of what I can bring to their teams.
-**[Click here](https://flemton.github.io/) for a [live](https://flemton.github.io/) version to [my portfolio](https://flemton.github.io/)**
+**[My Portfolio](https://flemton.github.io/my-portfolio/)** is one of the most powerful tool in my software developer toolbox; it’s the easiest way of showing what I am truly capable of as a developer, and is a quick and simple way for recruiters and hiring managers to get an idea of what I can bring to their teams.
+**[Click here](https://flemton.github.io/my-portfolio/) for a [live](https://flemton.github.io/my-portfolio/) version to [my portfolio](https://flemton.github.io/my-portfolio/)**
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -57,6 +58,13 @@ After you're finished please remove all the comments and instructions!
 
 * HTML
 * CSS
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://flemton.github.io/my-portfolio/)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
