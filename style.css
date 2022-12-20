@@ -82,7 +82,8 @@ h1 {
   padding: 0;
 }
 
-.social-icons li a:visited, a:active {
+a:active,
+.social-icons li a:visited {
   color: black;
 }
 
@@ -374,7 +375,8 @@ img {
     width: 80%;
   }
 
-  .social-icons li a:visited, a:active {
+  a:active,
+  .social-icons li a:visited {
     color: black;
   }
 
