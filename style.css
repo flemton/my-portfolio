@@ -40,11 +40,11 @@ nav a {
 
 .mobile-menu{
   display: none;
-  width: 102vw;
-  height: 100vh;
+  width: 102.5vw;
+  height: 103vh;
   position: absolute;
   top: 0;
-  background-color: #6070FF;
+  background-color: #3444da;
   opacity: 0.9;
   }
   

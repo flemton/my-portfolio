@@ -5,8 +5,11 @@ const mobileMenuItem = document.querySelector('.mobile-menu-item');
 const mobileMenuItem1 = document.querySelector('.mobile-menu-item1');
 const mobileMenuItem2 = document.querySelector('.mobile-menu-item2');
 const navbar = document.querySelector(".nav-bar")
+const blurredBg = document.querySelector('.headline');
+
 
 function showMenu() {
+    //blurredBg.style.filter = 'blur(1px)';
     mobileMenu.style.display = 'block';
     closeBtn.style.display = 'block';
     navbar.style.display = 'none';
