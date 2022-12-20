@@ -22,17 +22,16 @@ nav a {
   background: none;
 }
 
-#close {
-  display: none;
-  border-color: transparent;
-  background: none;
-}
-
 #hamburger-icon {
   color: #6070ff;
 }
 
+.nav-bar div {
+  display: none;
+}
+
 #top-nav:hover {
+  display: none;
   cursor: pointer;
 }
 
@@ -41,6 +40,7 @@ nav a {
 }
 
 .mobile-menu{
+  display: none;
   width: 102vw;
   position: absolute;
   background-color: #6070FF;
@@ -50,7 +50,7 @@ nav a {
   .mobile-menu ul{
   list-style: none;
   padding-top: 80px;
-  padding-bottom: 400px;
+  padding-bottom: 415px;
   padding-left: 0;
   margin: 0;
   }
@@ -67,16 +67,21 @@ nav a {
   
   .mobile-menu li{
   padding: 10px;
+  margin-left: 30px;
   }
-  /* .close{
-  position: absolute;
-  top: 0;
-  right: 0;
-  } */
+   #close{
+  display: none;
+    position: absolute;
+  top: 1.5%;
+  right: 4%;
+  background: transparent;
+
+  }
   
   #icon-close{
-  color: orangered;
-  padding-top: 80px;
+    width: 12px;
+  height: 12px;
+  
   }
   
 
