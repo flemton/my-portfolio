@@ -9,8 +9,17 @@ body {
   margin: 10px 20px;
 }
 
-#hamburger {
+nav a {
+  text-decoration: none;
+  color: #6070ff;
+}
+
+#top-nav {
   display: none;
+}
+
+.menu {
+  display: block;
   border-color: transparent;
   background: none;
 }
@@ -19,11 +28,11 @@ body {
   color: #6070ff;
 }
 
-#hamburger:hover {
+#top-nav:hover {
   cursor: pointer;
 }
 
-#hamburger:active {
+#top-nav:active {
   cursor: context-menu;
 }
 
@@ -40,7 +49,7 @@ body {
   margin-right: -10px;
   background-color: #fff;
   border-radius: 0 0 0 90px;
-  height: 67%;
+  height: 500px;
 }
 
 h1 {
@@ -68,9 +77,14 @@ h1 {
 .social-icons,
 .portfolio-tags {
   display: flex;
-  gap: 5%;
+  gap: 6%;
   list-style: none;
   padding: 0;
+}
+
+a:active,
+.social-icons li a:visited {
+  color: black;
 }
 
 .works {
@@ -268,7 +282,7 @@ img {
   flex-direction: column;
   background-image: url('./img/contact--mobile.png');
   background-size: 100%;
-  width: 103%;
+  width: 102%;
   height: 100%;
   background-color: #6070ff;
   background-repeat: no-repeat;
@@ -361,18 +375,23 @@ img {
     width: 80%;
   }
 
+  a:active,
+  .social-icons li a:visited {
+    color: black;
+  }
+
   #hamburger-icon {
     display: none;
     color: #6070ff;
   }
 
-  #hamburger {
+  #top-nav {
     display: flex;
     color: black;
     margin-right: 10%;
   }
 
-  #hamburger a {
+  #top-nav a {
     text-decoration: none;
     padding: 0 10%;
     font-size: 15px;
@@ -442,9 +461,8 @@ img {
   #mail,
   #msg {
     width: 447px;
-    margin-bottom: 25px;
-    padding: 14;
     border-radius: 2px;
+    padding-left: 6px;
   }
 
   .contactme,
