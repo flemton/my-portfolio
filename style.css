@@ -17,7 +17,6 @@ nav a {
 }
 
 .menu {
-  display: block;
   border-color: transparent;
   background: none;
 }
@@ -40,7 +39,6 @@ nav a {
 }
 
 .mobile-menu{
-  display: none;
   width: 102vw;
   position: absolute;
   background-color: #6070FF;
@@ -70,7 +68,7 @@ nav a {
   margin-left: 30px;
   }
    #close{
-  display: none;
+    border: none;
     position: absolute;
   top: 1.5%;
   right: 4%;
