@@ -39,8 +39,11 @@ nav a {
 }
 
 .mobile-menu{
+  display: none;
   width: 102vw;
+  height: 100vh;
   position: absolute;
+  top: 0;
   background-color: #6070FF;
   opacity: 0.9;
   }
@@ -48,7 +51,6 @@ nav a {
   .mobile-menu ul{
   list-style: none;
   padding-top: 80px;
-  padding-bottom: 415px;
   padding-left: 0;
   margin: 0;
   }
@@ -64,15 +66,17 @@ nav a {
   }
   
   .mobile-menu li{
-  padding: 10px;
+    padding: 10px;
   margin-left: 30px;
+  margin-top: 0;
   }
    #close{
     border: none;
     position: absolute;
-  top: 1.5%;
-  right: 4%;
+    top: 12px;
+    right: 29px;
   background: transparent;
+  color: white;
 
   }
   
