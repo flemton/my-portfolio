@@ -10,16 +10,20 @@ body {
 }
 
 nav a {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
   text-decoration: none;
-  color: #6070ff;
-}
-
-#top-nav {
-  display: none;
 }
 
 .menu {
   display: block;
+  border-color: transparent;
+  background: none;
+}
+
+#close {
+  display: none;
   border-color: transparent;
   background: none;
 }
@@ -380,14 +384,14 @@ img {
     color: black;
   }
 
-  #hamburger-icon {
+  .menu {
     display: none;
-    color: #6070ff;
   }
 
   #top-nav {
     display: flex;
-    color: black;
+    position: inherit;
+    flex-direction: row;
     margin-right: 10%;
   }
 
