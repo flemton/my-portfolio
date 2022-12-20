@@ -17,6 +17,7 @@ nav a {
 }
 
 .menu {
+  display: block;
   border-color: transparent;
   background: none;
 }
