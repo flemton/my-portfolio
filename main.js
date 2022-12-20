@@ -5,11 +5,9 @@ const mobileMenuItem = document.querySelector('.mobile-menu-item');
 const mobileMenuItem1 = document.querySelector('.mobile-menu-item1');
 const mobileMenuItem2 = document.querySelector('.mobile-menu-item2');
 const navbar = document.querySelector(".nav-bar")
-const blurredBg = document.querySelector('.headline');
 
 
 function showMenu() {
-    //blurredBg.style.filter = 'blur(1px)';
     mobileMenu.style.display = 'block';
     closeBtn.style.display = 'block';
     navbar.style.display = 'none';
@@ -28,3 +26,20 @@ function showMenu() {
   mobileMenuItem.addEventListener('click', hideMenu);
   mobileMenuItem1.addEventListener('click', hideMenu);
   mobileMenuItem2.addEventListener('click', hideMenu);
+
+
+  function myFunction(desktopView) {
+    if (desktopView.matches) {
+      mobileMenu.style.display = 'none';
+      menuBtn.style.display = 'none';
+    } else {
+      menuBtn.style.display = 'block';
+      mobileMenu.style.display = 'none';
+    }
+  }
+  
+  const desktopView = window.matchMedia('(min-width: 768px)');
+  
+  myFunction(desktopView);
+  
+  desktopView.addListener(myFunction);
