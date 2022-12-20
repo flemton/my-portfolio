@@ -10,16 +10,13 @@ body {
 }
 
 nav a {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
   text-decoration: none;
-  color: #6070ff;
-}
-
-#top-nav {
-  display: none;
 }
 
 .menu {
-  display: block;
   border-color: transparent;
   background: none;
 }
@@ -28,12 +25,72 @@ nav a {
   color: #6070ff;
 }
 
+.nav-bar div {
+  display: none;
+}
+
 #top-nav:hover {
+  display: none;
   cursor: pointer;
 }
 
 #top-nav:active {
   cursor: context-menu;
+}
+
+.mobile-menu {
+  display: none;
+  width: 102.5vw;
+  height: 103vh;
+  position: absolute;
+  top: 0;
+  background-color: #3444da;
+  opacity: 0.9;
+}
+
+.mobile-menu ul {
+  list-style: none;
+  padding-top: 80px;
+  padding-left: 0;
+  margin: 0;
+}
+
+a:active {
+  color: black;
+}
+
+.mobile-menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.social-icons li a:visited {
+  color: black;
+}
+
+.mobile-menu li {
+  padding: 10px;
+  margin-left: 30px;
+  margin-top: 0;
+}
+
+#close {
+  border: none;
+  position: absolute;
+  top: 12px;
+  right: 29px;
+  background: transparent;
+  color: white;
+}
+
+#icon-close {
+  width: 12px;
+  height: 12px;
 }
 
 .headline {
@@ -80,11 +137,6 @@ h1 {
   gap: 6%;
   list-style: none;
   padding: 0;
-}
-
-a:active,
-.social-icons li a:visited {
-  color: black;
 }
 
 .works {
@@ -380,14 +432,14 @@ img {
     color: black;
   }
 
-  #hamburger-icon {
+  .menu {
     display: none;
-    color: #6070ff;
   }
 
   #top-nav {
     display: flex;
-    color: black;
+    position: inherit;
+    flex-direction: row;
     margin-right: 10%;
   }
 
