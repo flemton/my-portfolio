@@ -8,12 +8,12 @@ error.className = 'Message';
 error.innerText = 'Please submit your email in lower case';
 
 function validate(a) {
-  return regex.test(a);
+    return regex.test(a);
 }
 
 form.addEventListener('submit', (e) => {
-  if (validate(Email.value)) {
-    form.insertBefore(error, form.children[3]);
-    e.preventDefault();
-  }
+    if (validate(Email.value)) {
+        form.insertBefore(error, form.children[3]);
+        e.preventDefault();
+    }
 });
