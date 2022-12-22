@@ -1,8 +1,19 @@
 const form = document.querySelector('form');
-const email = form.querySelector('#Email');
+const Email = form.querySelector('#mail');
 
 const regex = /[A-Z]/;
 
-const message = document.createElement('p');
-message.className = 'error-message';
-message.innerText = 'Please submit your email in lower case';
+const error = document.createElement('p');
+error.className = 'Message';
+error.innerText = 'Please submit your email in lower case';
+
+function validate(a) {
+  return regex.test(a);
+}
+
+form.addEventListener('submit', (e) => {
+  if (validate(Email.value)) {
+    form.insertBefore(error, form.children[3]);
+    e.preventDefault();
+  }
+});
