@@ -446,7 +446,7 @@ img {
 }
 
 #get-intouch {
-  width: 135px;
+  width: fit-content;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -459,6 +459,7 @@ img {
   color: #6070ff;
   border: 1px solid white;
   border-radius: 6px;
+  background: #efeeeef5;
 }
 
 #get-intouch:hover {

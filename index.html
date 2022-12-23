@@ -180,10 +180,10 @@
         <p>If you have an application you are interested in developing, a feature that you need built or a project that
             needs coding. I’d love to help with it </p>
         <form class="formsection" action="https://formspree.io/f/xdojqzdn" method="post">
-            <input type="text" id="name" name="user_name" placeholder="Add your name" maxlength="30" required />
-            <input type="email" id="mail" name="user_email" placeholder="Add your email" maxlength="50" required />
+            <input type="text" id="name" name="user_name" placeholder="Add your name" maxlength="30" required oninput="EventListener(this)"/>
+            <input type="email" id="mail" name="user_email" placeholder="Add your email" maxlength="50" required oninput="EventListener(this)"/>
             <textarea id="msg" name="user_message" placeholder="Write your message here" maxlength="500"
-                required></textarea>
+                required oninput="EventListener(this)"></textarea>
             <button type="submit" id="get-intouch">Get In Touch</button>
         </form>
     </footer>
