@@ -469,6 +469,10 @@ img {
   color: green;
 }
 
+.Message {
+  color: red;
+}
+
 @media (min-width: 768px) {
   #headline {
     background-image: url('./img/header-bg.png');
