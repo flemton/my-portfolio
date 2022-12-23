@@ -141,6 +141,56 @@ h1 {
 
 /* Popup start */
 
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  list-style: none;
+  flex-direction: column;
+  align-items: center;
+  margin: 53px 20px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding: 0 16px;
+  background: white;
+  width: 80%;
+  height: 90%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  overflow: auto;
+}
+
+.popup-title {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+.popup .left-block {
+  gap: 0;
+}
+
+#popup-close {
+  border: none;
+  position: relative;
+  top: 30px;
+  left: 273px;
+  color: #67798E;
+  background: transparent;
+}
+
+.popup .project-links {
+  margin-top: 35px;
+  margin-left: 10px;
+  width: 50%;
+  justify-content: center;
+}
+
+.link-buttons {
+  display: flex;
+}
+
 /* Popup end */
 
 .works {
@@ -498,6 +548,70 @@ img {
     width: 45%;
     padding-right: 3%;
   }
+
+  /* Popup start */
+  
+  .popup {
+    width: 76%;
+    height: 95%;
+    align-items: flex-start;
+    margin: 20px 115px;
+    overflow: auto;
+  } 
+  
+  .popup .portfolio-tags > li {
+    width: fit-content;
+  }
+  
+  .popup-title {
+    font-size: 25px;
+  }
+  
+  .canopy, .canopy > ul {
+    font-size: 12px;
+  }
+  
+  .canopy > ul {
+    padding-left: 8px;
+  }
+  
+  
+  .detail-container > p {
+    width: 48vw;
+    font-size: 12px;
+    margin-right: 5px;
+  }
+  
+  .popup .left-block {
+    margin-left: 10px;
+  }
+  
+  #popup-close {
+    top: 30px;
+    left: 70vw;
+  }
+  
+  .popup .project-links {
+    margin-left: 10px;
+  }
+  
+  .link-buttons {
+    width: 250px;
+  }
+  
+  .detail-img img {
+    width: 74vw;
+    height: 56vh;
+  }
+  
+  .detail-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70vw;
+  }
+  
+  /* Popup end */
 
   .about-myself {
     flex-direction: row;

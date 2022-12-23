@@ -1,7 +1,7 @@
-//Works section
-//const portfolio = document.createElement('section');
-//portfolio.id = 'portfolio';
-//headline.append(portfolio);
+// Works section
+// const portfolio = document.createElement('section');
+// portfolio.id = 'portfolio';
+// headline.append(portfolio);
 const works = document.createElement('article');
 works.className = 'works';
 
@@ -73,10 +73,9 @@ const Projects = [
     },
     live: ' ',
     source: ' ',
-  }
+  },
 ];
 
-let content = '';
 Projects.forEach((Project) => {
   const content = `
   <li class="categories">
@@ -112,17 +111,17 @@ Projects.forEach((Project) => {
 document.body.insertBefore(works, document.body.children[3]);
 
 const popupDetails = document.querySelector('.popup');
-function showProjectDetails(){
+function showProjectDetails() {
   popupDetails.style.display = 'flex';
 }
 
 const detailsButton = document.querySelectorAll('.project-links');
-for (button of detailsButton){
+for (button of detailsButton) {
   button.addEventListener('click', showProjectDetails);
 }
 
 const detailsCloseButton = document.querySelector('#popup-close');
-function hideProjectDetails(){
+function hideProjectDetails() {
   popupDetails.style.display = 'none';
 }
 
