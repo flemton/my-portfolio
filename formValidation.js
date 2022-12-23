@@ -19,15 +19,16 @@ form.addEventListener('submit', (e) => {
 });
 
 // Form data persistence
+const { name, mail, msg } = form.elements;
 
-const Name = document.querySelector('#name');
-const Msg = document.querySelector('#msg');
+const formValues = JSON.parse(localStorage.getItem('contactForm')) || {
+  name: '',
+  mail: '',
+  msg: '',
+};
 
-form.addEventListener('submit', () => {
-  let storeData = {
-    name: Name.value,
-    email: Email.value,
-    msg: Msg.value
-  };
-  localStorage.setItem('data', JSON.stringify(storeData));
-});
+const loadInputValuesStored = () => {
+  name.value = formValues.name;
+  mail.value = formValues.mail;
+  msg.value = formValues.msg;
+};
