@@ -32,3 +32,20 @@ const loadInputValuesStored = () => {
   mail.value = formValues.mail;
   msg.value = formValues.msg;
 };
+
+loadInputValuesStored();
+const saveOnLocalStorage = () => {
+  localStorage.setItem('contactForm', JSON.stringify(formValues));
+};
+name.addEventListener('input', () => {
+  formValues.name = name.value;
+  saveOnLocalStorage();
+});
+mail.addEventListener('input', () => {
+  formValues.mail = mail.value;
+  saveOnLocalStorage();
+});
+msg.addEventListener('input', () => {
+  formValues.msg = msg.value;
+  saveOnLocalStorage();
+});
