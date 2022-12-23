@@ -167,6 +167,18 @@ h1 {
   margin-bottom: 0;
 }
 
+.left-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  width: 295px;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
 .popup .left-block {
   gap: 0;
 }
@@ -177,6 +189,19 @@ h1 {
   top: 30px;
   left: 273px;
   color: #67798e;
+  background: transparent;
+}
+
+.project-links {
+  box-sizing: border-box;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+  text-decoration: none;
+  width: fit-content;
+  color: #6070ff;
   background: transparent;
 }
 
@@ -219,18 +244,6 @@ img {
   width: 100%;
 }
 
-.left-block {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0;
-  gap: 12px;
-  width: 295px;
-  height: 100%;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-}
-
 .project-title {
   display: flex;
   width: 100%;
@@ -240,13 +253,13 @@ img {
 }
 
 .canopy,
-.canopy > ul {
+.canopy>ul {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.canopy > ul {
+.canopy>ul {
   gap: 10px;
   color: #7a869a;
   list-style: none;
@@ -262,7 +275,7 @@ img {
   height: 24px;
 }
 
-.portfolio-tags > li {
+.portfolio-tags>li {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -276,19 +289,6 @@ img {
   font-weight: 500;
   font-size: 12px;
   color: #6070ff;
-}
-
-.project-links {
-  box-sizing: border-box;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  display: flex;
-  flex-direction: row;
-  padding: 12px;
-  text-decoration: none;
-  width: fit-content;
-  color: #6070ff;
-  background: transparent;
 }
 
 .project-links:hover {
@@ -311,12 +311,12 @@ img {
   border-radius: 0 90px 0 0;
 }
 
-.about-myself > h1 {
+.about-myself>h1 {
   width: 90;
   height: 19%;
 }
 
-.about-myself > p {
+.about-myself>p {
   font-weight: 400;
   font-size: 16px;
 }
@@ -331,7 +331,7 @@ img {
   font-size: 16px;
 }
 
-.skills-list > li {
+.skills-list>li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -363,7 +363,7 @@ img {
   gap: 12px;
 }
 
-.language-icons > li {
+.language-icons>li {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -374,7 +374,7 @@ img {
   padding: 10 10 3;
 }
 
-.language-icons > li > img {
+.language-icons>li>img {
   width: 48px;
   height: 48px;
 }
@@ -405,7 +405,7 @@ img {
   color: #fff;
 }
 
-.contact-page > p {
+.contact-page>p {
   width: 80%;
   height: 102px;
   margin: 10 10 10 20;
@@ -557,7 +557,17 @@ img {
     overflow: auto;
   }
 
-  .popup .portfolio-tags > li {
+  .skills-list>li {
+    font-size: 20px;
+  }
+
+  .language-icons>li {
+    flex-direction: column;
+    width: 122px;
+    height: 120px;
+  }
+
+  .popup .portfolio-tags>li {
     width: fit-content;
   }
 
@@ -566,15 +576,20 @@ img {
   }
 
   .canopy,
-  .canopy > ul {
+  .canopy>ul {
     font-size: 12px;
   }
 
-  .canopy > ul {
+  .canopy>ul {
     padding-left: 8px;
   }
 
-  .detail-container > p {
+  p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  .detail-container>p {
     width: 48vw;
     font-size: 12px;
     margin-right: 5px;
@@ -589,12 +604,20 @@ img {
     left: 70vw;
   }
 
+  .project-links {
+    margin: 0;
+  }
+
   .popup .project-links {
     margin-left: 10px;
   }
 
   .link-buttons {
     width: 250px;
+  }
+
+  img {
+    width: 50%;
   }
 
   .detail-img img {
@@ -618,7 +641,7 @@ img {
     padding: 10% 10%;
   }
 
-  .about-myself > div {
+  .about-myself>div {
     margin-right: 2%;
     width: 50%;
   }
@@ -654,23 +677,10 @@ img {
     }
   }
 
-  p {
-    animation-duration: 3s;
-    animation-name: slidein;
-  }
-
-  .contact-page > p {
+  .contact-page>p {
     padding-top: 2%;
     text-align: center;
     width: 40%;
-  }
-
-  .skills-list > li {
-    font-size: 20px;
-  }
-
-  img {
-    width: 50%;
   }
 
   .my-logo {
@@ -706,21 +716,11 @@ img {
     width: 50%;
   }
 
-  .language-icons > li {
-    flex-direction: column;
-    width: 122px;
-    height: 120px;
-  }
-
   .social-icons,
   .portfolio-tags {
     display: flex;
     gap: 2%;
     list-style: none;
     padding: 0;
-  }
-
-  .project-links {
-    margin: 0;
   }
 }

@@ -116,9 +116,9 @@ function showProjectDetails() {
 }
 
 const detailsButton = document.querySelectorAll('.project-links');
-for (button of detailsButton) {
+detailsButton.forEach((button) => {
   button.addEventListener('click', showProjectDetails);
-}
+});
 
 const detailsCloseButton = document.querySelector('#popup-close');
 function hideProjectDetails() {
