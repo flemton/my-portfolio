@@ -253,13 +253,13 @@ img {
 }
 
 .canopy,
-.canopy>ul {
+.canopy > ul {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.canopy>ul {
+.canopy > ul {
   gap: 10px;
   color: #7a869a;
   list-style: none;
@@ -275,7 +275,7 @@ img {
   height: 24px;
 }
 
-.portfolio-tags>li {
+.portfolio-tags > li {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -311,12 +311,12 @@ img {
   border-radius: 0 90px 0 0;
 }
 
-.about-myself>h1 {
+.about-myself > h1 {
   width: 90;
   height: 19%;
 }
 
-.about-myself>p {
+.about-myself > p {
   font-weight: 400;
   font-size: 16px;
 }
@@ -331,7 +331,7 @@ img {
   font-size: 16px;
 }
 
-.skills-list>li {
+.skills-list > li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -363,7 +363,7 @@ img {
   gap: 12px;
 }
 
-.language-icons>li {
+.language-icons > li {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -374,7 +374,7 @@ img {
   padding: 10 10 3;
 }
 
-.language-icons>li>img {
+.language-icons > li > img {
   width: 48px;
   height: 48px;
 }
@@ -405,7 +405,7 @@ img {
   color: #fff;
 }
 
-.contact-page>p {
+.contact-page > p {
   width: 80%;
   height: 102px;
   margin: 10 10 10 20;
@@ -557,17 +557,17 @@ img {
     overflow: auto;
   }
 
-  .skills-list>li {
+  .skills-list > li {
     font-size: 20px;
   }
 
-  .language-icons>li {
+  .language-icons > li {
     flex-direction: column;
     width: 122px;
     height: 120px;
   }
 
-  .popup .portfolio-tags>li {
+  .popup .portfolio-tags > li {
     width: fit-content;
   }
 
@@ -576,11 +576,11 @@ img {
   }
 
   .canopy,
-  .canopy>ul {
+  .canopy > ul {
     font-size: 12px;
   }
 
-  .canopy>ul {
+  .canopy > ul {
     padding-left: 8px;
   }
 
@@ -589,7 +589,7 @@ img {
     animation-name: slidein;
   }
 
-  .detail-container>p {
+  .detail-container > p {
     width: 48vw;
     font-size: 12px;
     margin-right: 5px;
@@ -641,7 +641,7 @@ img {
     padding: 10% 10%;
   }
 
-  .about-myself>div {
+  .about-myself > div {
     margin-right: 2%;
     width: 50%;
   }
@@ -677,7 +677,7 @@ img {
     }
   }
 
-  .contact-page>p {
+  .contact-page > p {
     padding-top: 2%;
     text-align: center;
     width: 40%;
