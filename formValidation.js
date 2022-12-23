@@ -17,3 +17,17 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
   }
 });
+
+// Form data persistence
+
+const Name = document.querySelector('#name');
+const Msg = document.querySelector('#msg');
+
+form.addEventListener('submit', () => {
+  let storeData = {
+    name: Name.value,
+    email: Email.value,
+    msg: Msg.value
+  };
+  localStorage.setItem('data', JSON.stringify(storeData));
+});
