@@ -176,7 +176,7 @@ h1 {
   position: relative;
   top: 30px;
   left: 273px;
-  color: #67798E;
+  color: #67798e;
   background: transparent;
 }
 
@@ -290,8 +290,6 @@ img {
   color: #6070ff;
   background: transparent;
 }
-
-
 
 .project-links:hover {
   background-color: #7f8cff;
@@ -550,67 +548,67 @@ img {
   }
 
   /* Popup start */
-  
+
   .popup {
     width: 76%;
     height: 95%;
     align-items: flex-start;
     margin: 20px 115px;
     overflow: auto;
-  } 
-  
+  }
+
   .popup .portfolio-tags > li {
     width: fit-content;
   }
-  
+
   .popup-title {
     font-size: 25px;
   }
-  
-  .canopy, .canopy > ul {
+
+  .canopy,
+  .canopy > ul {
     font-size: 12px;
   }
-  
+
   .canopy > ul {
     padding-left: 8px;
   }
-  
-  
+
   .detail-container > p {
     width: 48vw;
     font-size: 12px;
     margin-right: 5px;
   }
-  
+
   .popup .left-block {
     margin-left: 10px;
   }
-  
+
   #popup-close {
     top: 30px;
     left: 70vw;
   }
-  
+
   .popup .project-links {
     margin-left: 10px;
   }
-  
+
   .link-buttons {
     width: 250px;
   }
-  
+
   .detail-img img {
     width: 74vw;
     height: 56vh;
   }
-  
+
   .detail-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 70vw;
   }
-  
+
   /* Popup end */
 
   .about-myself {
