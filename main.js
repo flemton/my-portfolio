@@ -42,3 +42,13 @@ const desktopView = window.matchMedia('(min-width: 768px)');
 myFunction(desktopView);
 
 desktopView.addListener(myFunction);
+
+const seeLive = document.getElementById('see-live')
+
+seeLive.addEventListener('click', () => {
+
+})
+
+document.getElementById("see-live").onclick = function () {
+  location.href = "https://flemton.github.io/my-portfolio/";
+}
