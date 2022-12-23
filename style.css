@@ -93,7 +93,7 @@ a:active {
   height: 12px;
 }
 
-.headline {
+#headline {
   display: flex;
   flex-direction: column;
   background-image: url('./img/header-background-mobile.png');
@@ -142,7 +142,7 @@ h1 {
 /* Popup start */
 
 .popup {
-  display: flex;
+  display: none;
   list-style: none;
   box-sizing: border-box;
   flex-direction: column;
@@ -160,6 +160,15 @@ h1 {
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 0;
+}
+
+#popup-close {
+  border: none;
+  position: relative;
+  top: 55px;
+  left: 273px;
+  color: #67798E;
+  background: transparent;
 }
 
 /* Popup end */
@@ -443,7 +452,7 @@ img {
 }
 
 @media (min-width: 768px) {
-  .headline {
+  #headline {
     background-image: url('./img/header-bg.png');
     padding: 10% 10%;
     width: 80%;
