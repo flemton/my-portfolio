@@ -141,36 +141,6 @@ h1 {
 
 /* Popup start */
 
-.popup {
-  display: none;
-  list-style: none;
-  box-sizing: border-box;
-  flex-direction: column;
-  align-items: center;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  padding: 16px;
-  width: 100%;
-  height: 100%;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-}
-
-.popup-title {
-  font-weight: 700;
-  font-size: 32px;
-  margin-bottom: 0;
-}
-
-#popup-close {
-  border: none;
-  position: relative;
-  top: 55px;
-  left: 273px;
-  color: #67798E;
-  background: transparent;
-}
-
 /* Popup end */
 
 .works {
