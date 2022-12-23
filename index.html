@@ -13,6 +13,7 @@
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="main.js" defer></script>
+    <script src="popup.js" defer></script>
     <script src="formValidation.js" defer></script>
     <title>My Portfolio</title>
 </head>
@@ -40,7 +41,7 @@
             <li class="mobile-menu-item2"><a href="#contact">Contact</a></li>
         </ul>
     </div>
-    <section class="headline">
+    <section id="headline">
         <h1>I'm Newton <br>Glad to see you!</h1>
         <p class="headline-text">I’m a software developer! I can help you build a product , feature or website Look
             through some of my work and experience! If you like what you see and have a project you need coded, don’t
@@ -72,136 +73,51 @@
         </span>
     </section>
     <section id="portfolio">
-        <article class="works">
-            <li class="categories">
-                <div class="categories-img">
-                    <img src="./img/portfolio-tonic1.png" alt="Tonic Category Image">
-                </div>
-                <div class="left-block">
-                    <h2 class="project-title">
-                        Tonic
-                    </h2>
-                    <span class="canopy">
-                        CANOPY
-                        <ul>
-                            <li><img src="./img/counter.png" alt=""></li>
-                            <li>Back End Dev</li>
-                            <li><img src="./img/counter.png" alt=""></li>
-                            <li>2015</li>
-                        </ul>
-                    </span>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                    <ul class="portfolio-tags">
-                        <li>
-                            html
-                        </li>
-                        <li>
-                            css
-                        </li>
-                        <li>
-                            javascript
-                        </li>
+        <section class="popup">
+            <div class="left-block">
+                <button type="button" class="close" id="popup-close"><i class="fa-solid fa-xmark fa-lg"></i></button>
+                <h2 class="popup-title">
+                    Tonic
+                </h2>
+                <span class="canopy">
+                    CANOPY
+                    <ul>
+                        <li><img src="./img/counter.png" alt=""></li>
+                        <li>Back End Dev</li>
+                        <li><img src="./img/counter.png" alt=""></li>
+                        <li>2015</li>
                     </ul>
-                    <a href="" class="project-links">See Project</a>
+                </span>
+                <div class="detail-img">
+                    <img src="./img/details-img.png" alt="Tonic Category Image">
                 </div>
-            </li>
-            <li class="categories">
-                <div class="categories-img">
-                    <img src="./img/portfolio-stories1.png" alt="Stories Category Image">
+                    <div class="detail-container">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div>
+                                <ul class="portfolio-tags">
+                                    <li>
+                                        html
+                                    </li>
+                                    <li>
+                                        css
+                                    </li>
+                                    <li>
+                                        javascript
+                                    </li>
+                                </ul>
+                                <div class="link-buttons">
+                                    <button type="button" class="project-links" onclick="location.href = 'https://flemton.github.io/my-portfolio';">See Live
+                                        <i><img src="./img/circle-icon.png" alt=""></i>
+                                    </button>
+                                    <button type="button" class="project-links" onclick="location.href = 'https://github.com/flemton/my-portfolio';" id="see-source">See Source
+                                        <i><img src="./img/github-blue.png" alt=""></i>
+                                    </button>
+                                </div>
+                            </div>
+                    </div>
                 </div>
-                <div class="left-block">
-                    <h2 class="project-title">
-                        Multi-Post Stories
-                    </h2>
-                    <span class="canopy">
-                        CANOPY
-                        <ul>
-                            <li><img src="./img/counter.png" alt=""></li>
-                            <li>Back End Dev</li>
-                            <li><img src="./img/counter.png" alt=""></li>
-                            <li>2015</li>
-                        </ul>
-                    </span>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                    <ul class="portfolio-tags">
-                        <li>
-                            html
-                        </li>
-                        <li>
-                            css
-                        </li>
-                        <li>
-                            javascript
-                        </li>
-                    </ul>
-                    <a href="" class="project-links">See Project</a>
-                </div>
-            </li>
-            <li class="categories">
-                <div class="categories-img">
-                    <img src="./img/portfolio-tonic2.png" alt="Tonic Category Image">
-                </div>
-                <div class="left-block">
-                    <h2 class="project-title">
-                        Tonic
-                    </h2>
-                    <span class="canopy">
-                        CANOPY
-                        <ul>
-                            <li><img src="./img/counter.png" alt=""></li>
-                            <li>Back End Dev</li>
-                            <li><img src="./img/counter.png" alt=""></li>
-                            <li>2015</li>
-                        </ul>
-                    </span>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                    <ul class="portfolio-tags">
-                        <li>
-                            html
-                        </li>
-                        <li>
-                            css
-                        </li>
-                        <li>
-                            javascript
-                        </li>
-                    </ul>
-                    <a href="" class="project-links">See Project</a>
-                </div>
-            </li>
-            <li class="categories">
-                <div class="categories-img">
-                    <img src="./img/portfolio-stories2.png" alt="Stories Category Image">
-                </div>
-                <div class="left-block">
-                    <h2 class="project-title">
-                        Multi-Post Stories
-                    </h2>
-                    <span class="canopy">
-                        CANOPY
-                        <ul>
-                            <li><img src="./img/counter.png" alt=""></li>
-                            <li>Back End Dev</li>
-                            <li><img src="./img/counter.png" alt=""></li>
-                            <li>2015</li>
-                        </ul>
-                    </span>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                    <ul class="portfolio-tags">
-                        <li>
-                            html
-                        </li>
-                        <li>
-                            css
-                        </li>
-                        <li>
-                            javascript
-                        </li>
-                    </ul>
-                    <a href="" class="project-links">See Project</a>
-                </div>
-            </li>
-        </article>
+            </div>
+        </section>
     </section>
     <section class="about-myself" id="about">
         <div>

@@ -42,3 +42,9 @@ const desktopView = window.matchMedia('(min-width: 768px)');
 myFunction(desktopView);
 
 desktopView.addListener(myFunction);
+
+const seeLive = document.getElementById('see-live');
+
+seeLive.addEventListener('click', () => {
+
+});

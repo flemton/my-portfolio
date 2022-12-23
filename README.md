@@ -1,29 +1,8 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-- Getting Started
-- Author
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>My Portfolio</b></h3>
+  <h3><b>Alhassan Osman's Portfolio</b></h3>
 
 </div>
 
@@ -40,24 +19,51 @@ After you're finished please remove all the comments and instructions!
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Author](#author)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [My Portfolio](https://flemton.github.io/my-portfolio/) <a name="about-project"></a>
+# 📖 [Alhassan Osman's Portfolio](https://flemton.github.io/my-portfolio/) <a name="about-project"></a>
 
 **[My Portfolio](https://flemton.github.io/my-portfolio/)** is one of the most powerful tool in my software developer toolbox; it’s the easiest way of showing what I am truly capable of as a developer, and is a quick and simple way for recruiters and hiring managers to get an idea of what I can bring to their teams.
 **[Click here](https://flemton.github.io/my-portfolio/) for a [live](https://flemton.github.io/my-portfolio/) version to [my portfolio](https://flemton.github.io/my-portfolio/)**
 
 ## 🛠 Built With <a name="built-with"></a>
+- HTML
+- CSS
+- JAVASCRIPT
 
 ### Tech Stack <a name="tech-stack"></a>
 
 * HTML
 * CSS
+* JAVASCRIPT
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Node.js</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Headline**
+- **Portfolio Section**
+- **About Section**
+- **Contact Section**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
@@ -76,14 +82,11 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 - [Node LTS](https://nodejs.org/en/download/)
-
-<!--
-Example command:
-
+- Run below command to make sure it is installed
 ```sh
- gem install rails
+ node -v
 ```
- -->
+
 
 ### Setup
 
@@ -104,6 +107,31 @@ After cloning the repo, you only need to install dependencies with `npm install`
 To run the project, execute the following command:
 `npm start`
 
+### Run tests
+
+To run tests, run the following command:
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHOR -->
 
@@ -113,6 +141,25 @@ To run the project, execute the following command:
 
 - GitHub: [@flemton](https://github.com/flemton)
 - LinkedIn: [Alhassan Osman](https://www.linkedin.com/in/alhassan-o-83039a80/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Add background toggle**
+- [ ] **Introductory animation**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,8 +188,6 @@ I would like to thank:
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **How to install Node?**
 
