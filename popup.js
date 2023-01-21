@@ -158,10 +158,9 @@ Projects.forEach((pop) => {
                     </div>
                 </div>
       </div>
-    `
+    `;
   document.body.insertBefore(popupDetails, document.body.children[2]);
 });
-
 
 const detailsButton = document.querySelectorAll('.project-links');
 detailsButton.forEach((button) => {
