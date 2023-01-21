@@ -1,61 +1,58 @@
 // Works section
-// const portfolio = document.createElement('section');
-// portfolio.id = 'portfolio';
-// headline.append(portfolio);
 const works = document.createElement('article');
 works.className = 'works';
 
 const Projects = [
   {
-    name: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/portfolio-tonic1.png',
+    name: 'Conference Page',
+    description: 'his is the Capstone project (week 5) for Module 1 at Microverse, where we apply everything learnt throughout the module from week one to week 4.',
+    featuredImage: './img/conference-page.png',
     details: {
-      DName: 'canopy',
-      skill: 'Back End Dev',
-      year: '2022',
+      DName: 'Conference',
+      skill: 'Front End Dev',
+      year: '2023',
     },
     technologies: {
       first: 'Html',
       second: 'Css',
       third: 'JavaScript',
     },
-    live: 'none',
-    source: 'none',
+    live: 'https://flemton.github.io/capstone1/',
+    source: 'https://github.com/flemton/capstone1',
   },
   {
-    name: 'Multi-Post Stories',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/portfolio-stories1.png',
+    name: 'Awesome Books with ES6',
+    description: 'Awesome books project built to add and remove books and their corresponding authors with the help of localstorage for data persistence built using HTML, CSS and JavaScript (es6 syntax).',
+    featuredImage: './img/awesome-books-es6.png',
     details: {
-      DName: 'canopy',
-      skill: 'Back End Dev',
-      year: '2022',
+      DName: 'Books',
+      skill: 'Front and Back End Dev',
+      year: '2023',
     },
     technologies: {
       first: 'Html',
       second: 'Css',
-      third: 'JavaScript',
+      third: 'JS(ES6)',
     },
-    live: 'none',
-    source: 'none',
+    live: 'https://flemton.github.io/awesome-books-es6',
+    source: 'https://github.com/flemton/awesome-books-es6',
   },
   {
-    name: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/portfolio-tonic1.png',
+    name: 'Todo List',
+    description: '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. built using ES6 and Webpack!',
+    featuredImage: './img/todo-list.png',
     details: {
-      DName: 'canopy',
-      skill: 'Back End Dev',
-      year: '2022',
+      DName: 'Todo',
+      skill: 'Front and Back End Dev',
+      year: '2023',
     },
     technologies: {
-      first: 'Html',
-      second: 'Css',
-      third: 'JavaScript',
+      first: 'ES6',
+      second: 'NodeJS',
+      third: 'Webpack',
     },
-    live: ' ',
-    source: ' ',
+    live: 'https://flemton.github.io/todo-list/dist/',
+    source: 'https://github.com/flemton/todo-list',
   },
   {
     name: 'Multi-Post Stories',
@@ -77,9 +74,9 @@ const Projects = [
 ];
 
 Projects.forEach((Project) => {
-  const content = `
+  works.innerHTML += `
   <li class="categories">
-  <div class="categories-img"> <img src="${Project.featuredImage}" alt="Tonic Category Image"></div>
+  <div class="categories-img"> <img src="${Project.featuredImage}" alt="${Project.name} Image"></div>
   <div class="left-block">
         <h2 class="project-title">${Project.name}</h2>
       <span class="canopy">
@@ -105,15 +102,65 @@ Projects.forEach((Project) => {
     </div>
   </li>
   `;
-  works.innerHTML += content;
 });
 
 document.body.insertBefore(works, document.body.children[3]);
 
-const popupDetails = document.querySelector('.popup');
+const popupDetails = document.createElement('section');
+popupDetails.className = 'popup';
+
 function showProjectDetails() {
   popupDetails.style.display = 'flex';
 }
+
+Projects.forEach((pop) => {
+  popupDetails.innerHTML = `
+    <div class="left-block">
+      <button type="button" class="close" id="popup-close"><i class="fa-solid fa-xmark fa-lg"></i></button>
+                <h2 class="popup-title">
+                    ${pop.name}
+                </h2>
+                <span class="canopy">
+                  ${pop.details.DName}
+                    <ul>
+                        <li><img src="./img/counter.png" alt=""></li>
+                        <li>${pop.details.skill}</li>
+                        <li><img src="./img/counter.png" alt=""></li>
+                        <li>${pop.details.year}</li>
+                    </ul>
+                </span>
+                <div class="detail-img">
+                    <img src="${pop.featuredImage}" alt="${pop.name} Image">
+                </div>
+                    <div class="detail-container">
+                        <p>${pop.description}</p>
+                            <div>
+                                <ul class="portfolio-tags">
+                                    <li>
+                                    ${pop.technologies.first}
+                                    </li>
+                                    <li>
+                                    ${pop.technologies.second}
+                                    </li>
+                                    <li>
+                                    ${pop.technologies.third}
+                                    </li>
+                                </ul>
+                                <div class="link-buttons">
+                                    <button type="button" class="project-links" onclick="location.href = '${pop.live}';">See Live
+                                        <i><img src="./img/circle-icon.png" alt=""></i>
+                                    </button>
+                                    <button type="button" class="project-links" onclick="location.href = '${pop.source}';" id="see-source">See Source
+                                        <i><img src="./img/github-blue.png" alt=""></i>
+                                    </button>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+      </div>
+    `;
+  document.body.insertBefore(popupDetails, document.body.children[2]);
+});
 
 const detailsButton = document.querySelectorAll('.project-links');
 detailsButton.forEach((button) => {
