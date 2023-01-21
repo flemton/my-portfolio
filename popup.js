@@ -5,7 +5,7 @@ works.className = 'works';
 const Projects = [
   {
     name: 'Conference Page',
-    description: 'his is the Capstone project (week 5) for Module 1 at Microverse, where we apply everything learnt throughout the module from week one to week 4.',
+    description: 'This is the Capstone project (week 5) for Module 1 at Microverse, where we apply everything learnt throughout the module from week one to week 4.',
     featuredImage: './img/conference-page.png',
     details: {
       DName: 'Conference',
