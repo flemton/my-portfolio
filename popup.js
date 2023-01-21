@@ -24,21 +24,21 @@ const Projects = [
     source: 'https://github.com/flemton/capstone1',
   },
   {
-    name: 'Multi-Post Stories',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/portfolio-stories1.png',
+    name: 'Awesome Books with ES6',
+    description: 'Awesome books project built to add and remove books and their corresponding authors with the help of localstorage for data persistence built using HTML, CSS and JavaScript (es6 syntax).',
+    featuredImage: './img/awesome-books-es6.png',
     details: {
-      DName: 'canopy',
-      skill: 'Back End Dev',
-      year: '2022',
+      DName: 'Books',
+      skill: 'Front and Back End Dev',
+      year: '2023',
     },
     technologies: {
       first: 'Html',
       second: 'Css',
-      third: 'JavaScript',
+      third: 'JS(ES6)',
     },
-    live: 'none',
-    source: 'none',
+    live: 'https://flemton.github.io/awesome-books-es6',
+    source: 'https://github.com/flemton/awesome-books-es6',
   },
   {
     name: 'Tonic',
@@ -79,7 +79,7 @@ const Projects = [
 Projects.forEach((Project) => {
   works.innerHTML += `
   <li class="categories">
-  <div class="categories-img"> <img src="${Project.featuredImage}" alt="Tonic Category Image"></div>
+  <div class="categories-img"> <img src="${Project.featuredImage}" alt="${Project.name} Image"></div>
   <div class="left-block">
         <h2 class="project-title">${Project.name}</h2>
       <span class="canopy">
