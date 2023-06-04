@@ -150,6 +150,7 @@ Example:
 
 - [ ] **Add background toggle**
 - [ ] **Introductory animation**
+- [ ] **Make it a template for anyone to use**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
