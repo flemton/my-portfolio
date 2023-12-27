@@ -55,21 +55,21 @@ const Projects = [
     source: 'https://github.com/flemton/todo-list',
   },
   {
-    name: 'Multi-Post Stories',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/portfolio-stories2.png',
+    name: 'Math Magicians',
+    description: '"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations, read a random math-related quote. Built with React.',
+    featuredImage: './img/math-magicians.png',
     details: {
       DName: 'canopy',
-      skill: 'Back End Dev',
-      year: '2022',
+      skill: 'Front End Dev',
+      year: '2023',
     },
     technologies: {
-      first: 'Html',
+      first: 'React',
       second: 'Css',
-      third: 'JavaScript',
+      third: 'Hooks',
     },
-    live: ' ',
-    source: ' ',
+    live: 'https://math-magicians-2zfh.onrender.com/',
+    source: 'https://github.com/flemton/math-magicians',
   },
 ];
 
